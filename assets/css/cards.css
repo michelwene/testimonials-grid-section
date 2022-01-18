@@ -1,0 +1,167 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+  row-gap: 22px;
+}
+
+.card {
+  display: flex;
+  border-radius: 8px;
+  flex-direction: column;
+  padding-left: 3rem;
+  height: auto;
+  padding-bottom: 4rem;
+}
+
+.card__purple {
+  display: flex;
+  background: url(../images/bg-pattern-quotation.svg) 90% 0% / 32% no-repeat;
+  background-color: var(--violeta);
+  flex-direction: column;
+}
+
+.card__gray {
+  background-color: var(--azul-acizentado);
+}
+
+.card__light {
+  background-color: var(--branco);
+}
+
+.card__dark {
+  background-color: var(--azul-escuro);
+}
+
+.card__dark ~ .card__light {
+  background-color: var(--branco);
+}
+.card__infoUser {
+  display: flex;
+  margin-top: 2.5rem;
+  align-items: center;
+}
+
+.icon__user {
+  border-radius: 50%;
+  border: 2px solid hsl(262, 41%, 64%);
+  height: 28px;
+  width: 28px;
+}
+
+.icon__user--daniel {
+  background: url(../images/image-daniel.jpg) center / cover no-repeat;
+}
+
+.icon__user--jonathan {
+  background: url(../images/image-jonathan.jpg) center / cover no-repeat;
+  border: 0 none;
+}
+
+.icon__user--Jeanette {
+  background: url(../images/image-jeanette.jpg) center / cover no-repeat;
+  border: 0 none;
+}
+
+.icon__user--patrick {
+  background: url(../images/image-patrick.jpg) center / cover no-repeat;
+  border: 2px solid var(--violeta);
+}
+
+.icon__user--kira {
+  background: url(../images/image-kira.jpg) center / cover no-repeat;
+  border: 0 none;
+}
+
+.info__user {
+  padding-left: 1.5rem;
+}
+
+.info__user--name {
+  color: var(--azul-acizentado-claro);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.info__user--name-dark {
+  color: var(--azul-acizentado);
+}
+
+.info__user--name-dark + .info__user--status {
+  opacity: 1;
+}
+
+.info__user--status {
+  color: var(--cinza-claro);
+  opacity: 50%;
+}
+
+.card__review {
+  margin-top: 1.8rem;
+  padding-right: 2.8rem;
+}
+
+.card__review--purple .review__title {
+  color: var(--branco);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.card__review--gray .review__title {
+  color: var(--branco);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.card__review--light .review__title {
+  color: var(--azul-acizentado);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.card__review--dark .review__title {
+  color: var(--branco);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.second .review__title {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.review__quote {
+  color: var(--cinza-claro);
+  font-size: 11.6px;
+  font-weight: 500;
+  margin-top: 1.7rem;
+  line-height: 1.5;
+  opacity: 70%;
+  text-align: left;
+  padding-right: 14px;
+}
+
+.review__quote--gray {
+  color: var(--branco);
+  margin-top: 1.5rem;
+  padding-right: 0px;
+}
+
+.card__review--light > .review__quote {
+  color: var(--azul-acizentado);
+  margin-top: 1.4rem;
+  opacity: 70%;
+}
+
+.card__review--dark > .review__quote {
+  font-size: 11.3px;
+  opacity: 80%;
+}
+
+.second > .review__quote {
+  padding-right: 0;
+}

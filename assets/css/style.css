@@ -11,3 +11,24 @@
   --cinza-claro: hsl(0, 0%, 81%);
   --azul-acizentado-claro: hsl(210, 46%, 95%);
 }
+
+html {
+  box-sizing: border-box;
+  font-size: 65%;
+  height: 100%;
+}
+
+.app {
+  background-color: var(--azul-acizentado-claro);
+  display: flex;
+  font-family: "Barlow", sans-serif;
+  justify-content: center;
+  max-width: 100vw;
+  min-height: 100%;
+  padding: 0 2.4rem;
+}
+
+.content {
+  max-width: 100vw;
+  overflow: hidden;
+}
