@@ -1,0 +1,69 @@
+.card__review {
+  margin-top: 1.8rem;
+  padding-right: 2.8rem;
+}
+
+.card__review--purple .review__title {
+  color: var(--branco);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.card__review--gray .review__title {
+  color: var(--branco);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.card__review--light .review__title {
+  color: var(--azul-acizentado);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.card__review--dark .review__title {
+  color: var(--branco);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.second .review__title {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.review__quote {
+  color: var(--cinza-claro);
+  font-size: 11.6px;
+  font-weight: 500;
+  margin-top: 1.7rem;
+  line-height: 1.5;
+  opacity: 70%;
+  text-align: left;
+  padding-right: 14px;
+}
+
+.review__quote--gray {
+  color: var(--branco);
+  margin-top: 1.5rem;
+  padding-right: 0px;
+}
+
+.card__review--light > .review__quote {
+  color: var(--azul-acizentado);
+  margin-top: 1.4rem;
+  opacity: 70%;
+}
+
+.card__review--dark > .review__quote {
+  font-size: 11.3px;
+  opacity: 80%;
+}
+
+.second > .review__quote {
+  padding-right: 0;
+}

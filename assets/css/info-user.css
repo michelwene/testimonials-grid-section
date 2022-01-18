@@ -1,0 +1,22 @@
+.info__user {
+  padding-left: 1.5rem;
+}
+
+.info__user--name {
+  color: var(--azul-acizentado-claro);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.info__user--name-dark {
+  color: var(--azul-acizentado);
+}
+
+.info__user--name-dark + .info__user--status {
+  opacity: 1;
+}
+
+.info__user--status {
+  color: var(--cinza-claro);
+  opacity: 50%;
+}

@@ -1,0 +1,30 @@
+.icon__user {
+  border-radius: 50%;
+  border: 2px solid hsl(262, 41%, 64%);
+  height: 28px;
+  width: 28px;
+}
+
+.icon__user--daniel {
+  background: url(../images/image-daniel.jpg) center / cover no-repeat;
+}
+
+.icon__user--jonathan {
+  background: url(../images/image-jonathan.jpg) center / cover no-repeat;
+  border: 0 none;
+}
+
+.icon__user--Jeanette {
+  background: url(../images/image-jeanette.jpg) center / cover no-repeat;
+  border: 0 none;
+}
+
+.icon__user--patrick {
+  background: url(../images/image-patrick.jpg) center / cover no-repeat;
+  border: 2px solid var(--violeta);
+}
+
+.icon__user--kira {
+  background: url(../images/image-kira.jpg) center / cover no-repeat;
+  border: 0 none;
+}
