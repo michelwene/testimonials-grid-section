@@ -47,8 +47,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solução URL: [https://github.com/michelwene/sunnyside-agency-landing-page](https://github.com/michelwene/sunnyside-agency-landing-page)
-- Site URL: [https://michelwene.github.io/sunnyside-agency-landing-page/](https://michelwene.github.io/sunnyside-agency-landing-page/)
+- Solução URL: [https://github.com/michelwene/testimonials-grid-section](https://github.com/michelwene/testimonials-grid-section)
+- Site URL: [https://michelwene.github.io/testimonials-grid-section/](https://michelwene.github.io/testimonials-grid-section/)
 
 ## Meu processo
 
